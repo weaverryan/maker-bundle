@@ -90,10 +90,10 @@ jobs:
                 maker-test-version:
                     - 'stable'
                 allow-failures: [false]
-#                include:
-#                    - php-version: '7.4'
-#                      maker-test-version: 'dev'
-#                      allow-failures: true
+                include:
+                    - php-version: '7.4'
+                      maker-test-version: 'dev'
+                      allow-failures: true
 #                    - php-version: '8.0'
 #                      maker-test-version: 'stable'
 #                      allow-failures: true
