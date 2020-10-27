@@ -465,7 +465,7 @@ echo json_encode($missingDependencies);
 
                     break;
                 case 'dev':
-                    $this->targetFlexVersion = 'dev-master';
+                    $this->targetFlexVersion = '5.x-dev';
 
                     break;
                 default:
