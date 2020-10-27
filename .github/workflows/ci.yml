@@ -83,9 +83,9 @@ jobs:
         strategy:
             matrix:
                 php-version:
-                    - '7.1.33'
-                    - '7.2.5'
-                    - '7.3'
+#                    - '7.1.33'
+#                    - '7.2.5'
+#                    - '7.3'
                     - '7.4'
                 maker-test-version:
                     - 'stable'
